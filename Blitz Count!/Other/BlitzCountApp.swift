@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct Blitz_Count_App: App {
+struct BlitzCountApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GameView()
         }
     }
 }

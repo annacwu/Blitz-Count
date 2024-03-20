@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		924850AA2BAA1F57007F6EC2 /* Blitz_Count_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924850A92BAA1F57007F6EC2 /* Blitz_Count_App.swift */; };
-		924850AC2BAA1F57007F6EC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924850AB2BAA1F57007F6EC2 /* ContentView.swift */; };
+		924850AA2BAA1F57007F6EC2 /* BlitzCountApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924850A92BAA1F57007F6EC2 /* BlitzCountApp.swift */; };
+		924850AC2BAA1F57007F6EC2 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924850AB2BAA1F57007F6EC2 /* GameView.swift */; };
 		924850AE2BAA1F58007F6EC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 924850AD2BAA1F58007F6EC2 /* Assets.xcassets */; };
 		924850B12BAA1F58007F6EC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 924850B02BAA1F58007F6EC2 /* Preview Assets.xcassets */; };
+		924850BC2BAB5110007F6EC2 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924850BB2BAB5110007F6EC2 /* Player.swift */; };
+		924850BE2BAB5122007F6EC2 /* GameViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924850BD2BAB5122007F6EC2 /* GameViewViewModel.swift */; };
+		924850C02BAB5137007F6EC2 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924850BF2BAB5137007F6EC2 /* StatsView.swift */; };
+		924850C22BAB5144007F6EC2 /* StatsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924850C12BAB5144007F6EC2 /* StatsViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		924850A62BAA1F57007F6EC2 /* Blitz Count!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blitz Count!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		924850A92BAA1F57007F6EC2 /* Blitz_Count_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blitz_Count_App.swift; sourceTree = "<group>"; };
-		924850AB2BAA1F57007F6EC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		924850A92BAA1F57007F6EC2 /* BlitzCountApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlitzCountApp.swift; sourceTree = "<group>"; };
+		924850AB2BAA1F57007F6EC2 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		924850AD2BAA1F58007F6EC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		924850B02BAA1F58007F6EC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		924850BB2BAB5110007F6EC2 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		924850BD2BAB5122007F6EC2 /* GameViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewViewModel.swift; sourceTree = "<group>"; };
+		924850BF2BAB5137007F6EC2 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		924850C12BAB5144007F6EC2 /* StatsViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,10 @@
 		924850A82BAA1F57007F6EC2 /* Blitz Count! */ = {
 			isa = PBXGroup;
 			children = (
-				924850A92BAA1F57007F6EC2 /* Blitz_Count_App.swift */,
-				924850AB2BAA1F57007F6EC2 /* ContentView.swift */,
+				924850BA2BAB50E4007F6EC2 /* Models */,
+				924850B92BAB5093007F6EC2 /* Other */,
+				924850B82BAB508C007F6EC2 /* ViewModels */,
+				924850B72BAB5086007F6EC2 /* Views */,
 				924850AD2BAA1F58007F6EC2 /* Assets.xcassets */,
 				924850AF2BAA1F58007F6EC2 /* Preview Content */,
 			);
@@ -65,6 +75,40 @@
 				924850B02BAA1F58007F6EC2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		924850B72BAB5086007F6EC2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				924850AB2BAA1F57007F6EC2 /* GameView.swift */,
+				924850BF2BAB5137007F6EC2 /* StatsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		924850B82BAB508C007F6EC2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				924850BD2BAB5122007F6EC2 /* GameViewViewModel.swift */,
+				924850C12BAB5144007F6EC2 /* StatsViewViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		924850B92BAB5093007F6EC2 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				924850A92BAA1F57007F6EC2 /* BlitzCountApp.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		924850BA2BAB50E4007F6EC2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				924850BB2BAB5110007F6EC2 /* Player.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +181,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				924850AC2BAA1F57007F6EC2 /* ContentView.swift in Sources */,
-				924850AA2BAA1F57007F6EC2 /* Blitz_Count_App.swift in Sources */,
+				924850AC2BAA1F57007F6EC2 /* GameView.swift in Sources */,
+				924850C02BAB5137007F6EC2 /* StatsView.swift in Sources */,
+				924850BC2BAB5110007F6EC2 /* Player.swift in Sources */,
+				924850C22BAB5144007F6EC2 /* StatsViewViewModel.swift in Sources */,
+				924850AA2BAA1F57007F6EC2 /* BlitzCountApp.swift in Sources */,
+				924850BE2BAB5122007F6EC2 /* GameViewViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
