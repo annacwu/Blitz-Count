@@ -15,6 +15,8 @@
 		924850BE2BAB5122007F6EC2 /* GameViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924850BD2BAB5122007F6EC2 /* GameViewViewModel.swift */; };
 		924850C02BAB5137007F6EC2 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924850BF2BAB5137007F6EC2 /* StatsView.swift */; };
 		924850C22BAB5144007F6EC2 /* StatsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924850C12BAB5144007F6EC2 /* StatsViewViewModel.swift */; };
+		924850C42BAB5232007F6EC2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924850C32BAB5232007F6EC2 /* MainView.swift */; };
+		924850C62BAB5241007F6EC2 /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924850C52BAB5241007F6EC2 /* MainViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		924850BD2BAB5122007F6EC2 /* GameViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewViewModel.swift; sourceTree = "<group>"; };
 		924850BF2BAB5137007F6EC2 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 		924850C12BAB5144007F6EC2 /* StatsViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewViewModel.swift; sourceTree = "<group>"; };
+		924850C32BAB5232007F6EC2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		924850C52BAB5241007F6EC2 /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +67,6 @@
 				924850B92BAB5093007F6EC2 /* Other */,
 				924850B82BAB508C007F6EC2 /* ViewModels */,
 				924850B72BAB5086007F6EC2 /* Views */,
-				924850AD2BAA1F58007F6EC2 /* Assets.xcassets */,
 				924850AF2BAA1F58007F6EC2 /* Preview Content */,
 			);
 			path = "Blitz Count!";
@@ -82,6 +85,7 @@
 			children = (
 				924850AB2BAA1F57007F6EC2 /* GameView.swift */,
 				924850BF2BAB5137007F6EC2 /* StatsView.swift */,
+				924850C32BAB5232007F6EC2 /* MainView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -91,6 +95,7 @@
 			children = (
 				924850BD2BAB5122007F6EC2 /* GameViewViewModel.swift */,
 				924850C12BAB5144007F6EC2 /* StatsViewViewModel.swift */,
+				924850C52BAB5241007F6EC2 /* MainViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -98,6 +103,7 @@
 		924850B92BAB5093007F6EC2 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				924850AD2BAA1F58007F6EC2 /* Assets.xcassets */,
 				924850A92BAA1F57007F6EC2 /* BlitzCountApp.swift */,
 			);
 			path = Other;
@@ -182,10 +188,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				924850AC2BAA1F57007F6EC2 /* GameView.swift in Sources */,
+				924850C42BAB5232007F6EC2 /* MainView.swift in Sources */,
 				924850C02BAB5137007F6EC2 /* StatsView.swift in Sources */,
 				924850BC2BAB5110007F6EC2 /* Player.swift in Sources */,
 				924850C22BAB5144007F6EC2 /* StatsViewViewModel.swift in Sources */,
 				924850AA2BAA1F57007F6EC2 /* BlitzCountApp.swift in Sources */,
+				924850C62BAB5241007F6EC2 /* MainViewViewModel.swift in Sources */,
 				924850BE2BAB5122007F6EC2 /* GameViewViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,6 +328,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Blitz Count!/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -332,7 +341,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "me.Wu.Anna.Blitz-Count-";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Wu.Anna.Blitz-Count";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -348,6 +357,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Blitz Count!/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -360,7 +370,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "me.Wu.Anna.Blitz-Count-";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Wu.Anna.Blitz-Count";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
