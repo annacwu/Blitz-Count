@@ -17,6 +17,8 @@
 		924850C22BAB5144007F6EC2 /* StatsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924850C12BAB5144007F6EC2 /* StatsViewViewModel.swift */; };
 		924850C42BAB5232007F6EC2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924850C32BAB5232007F6EC2 /* MainView.swift */; };
 		924850C62BAB5241007F6EC2 /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924850C52BAB5241007F6EC2 /* MainViewViewModel.swift */; };
+		924850C82BAB5692007F6EC2 /* AddPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924850C72BAB5692007F6EC2 /* AddPlayerView.swift */; };
+		924850CA2BAB56A2007F6EC2 /* AddPlayerViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924850C92BAB56A2007F6EC2 /* AddPlayerViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		924850C12BAB5144007F6EC2 /* StatsViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewViewModel.swift; sourceTree = "<group>"; };
 		924850C32BAB5232007F6EC2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		924850C52BAB5241007F6EC2 /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
+		924850C72BAB5692007F6EC2 /* AddPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlayerView.swift; sourceTree = "<group>"; };
+		924850C92BAB56A2007F6EC2 /* AddPlayerViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlayerViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 				924850AB2BAA1F57007F6EC2 /* GameView.swift */,
 				924850BF2BAB5137007F6EC2 /* StatsView.swift */,
 				924850C32BAB5232007F6EC2 /* MainView.swift */,
+				924850C72BAB5692007F6EC2 /* AddPlayerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -96,6 +101,7 @@
 				924850BD2BAB5122007F6EC2 /* GameViewViewModel.swift */,
 				924850C12BAB5144007F6EC2 /* StatsViewViewModel.swift */,
 				924850C52BAB5241007F6EC2 /* MainViewViewModel.swift */,
+				924850C92BAB56A2007F6EC2 /* AddPlayerViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -191,7 +197,9 @@
 				924850C42BAB5232007F6EC2 /* MainView.swift in Sources */,
 				924850C02BAB5137007F6EC2 /* StatsView.swift in Sources */,
 				924850BC2BAB5110007F6EC2 /* Player.swift in Sources */,
+				924850C82BAB5692007F6EC2 /* AddPlayerView.swift in Sources */,
 				924850C22BAB5144007F6EC2 /* StatsViewViewModel.swift in Sources */,
+				924850CA2BAB56A2007F6EC2 /* AddPlayerViewViewModel.swift in Sources */,
 				924850AA2BAA1F57007F6EC2 /* BlitzCountApp.swift in Sources */,
 				924850C62BAB5241007F6EC2 /* MainViewViewModel.swift in Sources */,
 				924850BE2BAB5122007F6EC2 /* GameViewViewModel.swift in Sources */,
@@ -341,7 +349,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "me.Wu.Anna.Blitz-Count";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Wu.Anna.Blitz-Count-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -370,7 +378,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "me.Wu.Anna.Blitz-Count";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Wu.Anna.Blitz-Count-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
