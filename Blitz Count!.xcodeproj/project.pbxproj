@@ -17,8 +17,9 @@
 		924850C22BAB5144007F6EC2 /* StatsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924850C12BAB5144007F6EC2 /* StatsViewViewModel.swift */; };
 		924850C42BAB5232007F6EC2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924850C32BAB5232007F6EC2 /* MainView.swift */; };
 		924850C62BAB5241007F6EC2 /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924850C52BAB5241007F6EC2 /* MainViewViewModel.swift */; };
-		924850C82BAB5692007F6EC2 /* AddPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924850C72BAB5692007F6EC2 /* AddPlayerView.swift */; };
-		924850CA2BAB56A2007F6EC2 /* AddPlayerViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924850C92BAB56A2007F6EC2 /* AddPlayerViewViewModel.swift */; };
+		924850C82BAB5692007F6EC2 /* NewGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924850C72BAB5692007F6EC2 /* NewGameView.swift */; };
+		924850CA2BAB56A2007F6EC2 /* NewGameViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924850C92BAB56A2007F6EC2 /* NewGameViewViewModel.swift */; };
+		924850CC2BACA9EF007F6EC2 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924850CB2BACA9EF007F6EC2 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,8 +34,9 @@
 		924850C12BAB5144007F6EC2 /* StatsViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewViewModel.swift; sourceTree = "<group>"; };
 		924850C32BAB5232007F6EC2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		924850C52BAB5241007F6EC2 /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
-		924850C72BAB5692007F6EC2 /* AddPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlayerView.swift; sourceTree = "<group>"; };
-		924850C92BAB56A2007F6EC2 /* AddPlayerViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlayerViewViewModel.swift; sourceTree = "<group>"; };
+		924850C72BAB5692007F6EC2 /* NewGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGameView.swift; sourceTree = "<group>"; };
+		924850C92BAB56A2007F6EC2 /* NewGameViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGameViewViewModel.swift; sourceTree = "<group>"; };
+		924850CB2BACA9EF007F6EC2 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +92,7 @@
 				924850AB2BAA1F57007F6EC2 /* GameView.swift */,
 				924850BF2BAB5137007F6EC2 /* StatsView.swift */,
 				924850C32BAB5232007F6EC2 /* MainView.swift */,
-				924850C72BAB5692007F6EC2 /* AddPlayerView.swift */,
+				924850C72BAB5692007F6EC2 /* NewGameView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -101,7 +103,7 @@
 				924850BD2BAB5122007F6EC2 /* GameViewViewModel.swift */,
 				924850C12BAB5144007F6EC2 /* StatsViewViewModel.swift */,
 				924850C52BAB5241007F6EC2 /* MainViewViewModel.swift */,
-				924850C92BAB56A2007F6EC2 /* AddPlayerViewViewModel.swift */,
+				924850C92BAB56A2007F6EC2 /* NewGameViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -119,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				924850BB2BAB5110007F6EC2 /* Player.swift */,
+				924850CB2BACA9EF007F6EC2 /* Game.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -197,9 +200,10 @@
 				924850C42BAB5232007F6EC2 /* MainView.swift in Sources */,
 				924850C02BAB5137007F6EC2 /* StatsView.swift in Sources */,
 				924850BC2BAB5110007F6EC2 /* Player.swift in Sources */,
-				924850C82BAB5692007F6EC2 /* AddPlayerView.swift in Sources */,
+				924850C82BAB5692007F6EC2 /* NewGameView.swift in Sources */,
 				924850C22BAB5144007F6EC2 /* StatsViewViewModel.swift in Sources */,
-				924850CA2BAB56A2007F6EC2 /* AddPlayerViewViewModel.swift in Sources */,
+				924850CC2BACA9EF007F6EC2 /* Game.swift in Sources */,
+				924850CA2BAB56A2007F6EC2 /* NewGameViewViewModel.swift in Sources */,
 				924850AA2BAA1F57007F6EC2 /* BlitzCountApp.swift in Sources */,
 				924850C62BAB5241007F6EC2 /* MainViewViewModel.swift in Sources */,
 				924850BE2BAB5122007F6EC2 /* GameViewViewModel.swift in Sources */,

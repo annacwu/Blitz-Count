@@ -15,5 +15,6 @@ struct BlitzCountApp: App {
             GameView()
         }
         .modelContainer(for: Player.self)
+        .modelContainer(for: Game.self)
     }
 }
