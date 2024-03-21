@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct BlitzCountApp: App {
@@ -13,5 +14,6 @@ struct BlitzCountApp: App {
         WindowGroup {
             GameView()
         }
+        .modelContainer(for: Player.self)
     }
 }
